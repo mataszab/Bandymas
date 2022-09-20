@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tvMain = (TextView)findViewById(R.id.tvMain);
-
     }
 
     public void onBtnChangeTextClick(View view) {
@@ -33,4 +32,5 @@ public class MainActivity extends AppCompatActivity {
         int randGeneratedColor = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
         tvMain.setTextColor(randGeneratedColor);
     }
+    //Writing nonsense to revert
 }
